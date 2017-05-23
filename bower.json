@@ -1,0 +1,20 @@
+{
+  "name": "estore",
+  "description": "E-Commerce Theme",
+  "main": "Gruntfile.js",
+  "license": "GPL-3.0+",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "superfish": "^1.7.9",
+    "bxslider-4": "^4.2.12",
+    "font-awesome": "^4.7.0"
+  }
+}

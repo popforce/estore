@@ -131,9 +131,9 @@ function estore_scripts() {
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri().'/font-awesome/css/font-awesome.min.css', array(), '4.7.0' );
 
 	// Load bxslider
-	wp_enqueue_script( 'bxslider', get_template_directory_uri().'/js/jquery.bxslider' . $suffix . '.js', array('jquery'), false, true );
+	wp_enqueue_script( 'bxslider', get_template_directory_uri().'/js/jquery.bxslider' . $suffix . '.js', array('jquery'), '4.2.12', true );
 
-	wp_enqueue_script( 'superfish', get_template_directory_uri().'/js/superfish' . $suffix . '.js', array('jquery'), false, true );
+	wp_enqueue_script( 'superfish', get_template_directory_uri().'/js/superfish' . $suffix . '.js', array('jquery'), '1.7.9', true );
 
 	wp_enqueue_style ( 'estore-googlefonts', '//fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' );
 
