@@ -209,11 +209,9 @@ define( 'Estore_ADMIN_IMAGES_URL', get_template_directory_uri() . '/inc/admin/im
 require get_template_directory() . '/inc/admin/meta-boxes.php';
 
 /**
- * Load Demo Importer Configs.
+ * Load Demo Importer compatibility file.
  */
-if ( class_exists( 'TG_Demo_Importer' ) ) {
-	require get_template_directory() . '/inc/demo-config.php';
-}
+require get_template_directory() . '/inc/demo-importer/class-demo-importer.php';
 
 /**
  * eStore About Page
